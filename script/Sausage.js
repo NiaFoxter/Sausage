@@ -1,5 +1,4 @@
-/*колбаса правит миром...
-начало размышления написано в ПростоБесполезныйТекст*/
+/*колбаса правит миром...*/
 
 let text_field = document.getElementById("text");
 let first_choice = document.getElementById("firstChoice");
