@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+div {
+    font-family: cursive;
+    font-size: 23px;
+    display: flex;
+}
+
+.choices {
+    column-gap: 15px;
+}
+
+#firstChoice:hover {
+    color:forestgreen;
+}
+
+#secondChoice:hover {
+    color:crimson;
+}
