@@ -26,6 +26,7 @@ function OnClick(e) {
                 second_choice.innerText = "Не хочу, сама ріж, в мене справи."
             } else {
                 text_field.innerText = "..."
+                hide();
                 setTimeout(gameOver, 4000)
             }
             break;
