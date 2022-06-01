@@ -11,6 +11,7 @@ body {
 }
 
 div {
+    text-align: center;
     font-family: cursive;
     display: flex;
 }
