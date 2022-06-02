@@ -12,7 +12,6 @@ function hide() {
 
 function gameOver() {
     text_field.style.display = "none";
-    hide()
     document.body.innerHTML = "Wasted";
 }
 function OnClick(e) {
