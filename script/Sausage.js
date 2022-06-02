@@ -4,7 +4,7 @@ let text_field = document.getElementById("text");
 let first_choice = document.getElementById("firstChoice");
 let second_choice = document.getElementById("secondChoice");
 let stage = "mom's task";
-let open_refrigerator = false;
+
 function hide() {
     first_choice.style.display = "none";
     second_choice.style.display = "none";
@@ -14,7 +14,6 @@ function gameOver() {
     text_field.style.display = "none";
     hide()
     document.body.innerHTML = "Wasted";
-    // document.body.style.background = "brown";
 }
 function OnClick(e) {
     switch (stage) {
